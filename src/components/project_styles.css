@@ -1,0 +1,340 @@
+/* Project Timeline Styles */
+
+.bbg-project{
+    background-image: url('../assets/images/nuk-pro-back-sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    height: 500px;
+    z-index: -1;
+}
+
+.bbg-project h1 {
+    padding-top: 210px;
+    text-align: center;
+  position: relative;
+  white-space: nowrap;
+  z-index: 0;
+  color: gray;
+    font-size: 250px;
+  background: -webkit-linear-gradient(red, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.bbbg-project{
+    margin-top: -200px;
+    background-image: url('../assets/images/nuk-pro-buildings.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    z-index: 1;
+    
+}
+
+
+.vertical-timeline-element-subtitle .languages{
+    background-color: darkgrey;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 20px;;
+    font-size: 14px;
+
+}
+.vertical-timeline-element-title{
+    margin-top: 10px;
+}
+
+.vertical-timeline-element-subtitle .pro .btn{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: whitesmoke;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+
+}
+.vertical-timeline-element-subtitle .pro .btn span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.vertical-timeline-element-subtitle .pro .btn span::after{
+    content: '\00bb';
+    color: black;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.vertical-timeline-element-subtitle .pro .btn:hover span{
+    padding-right: 10px;
+}
+.vertical-timeline-element-subtitle .pro .btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.mm{
+    display: none;
+}
+@media (max-width: 1160px) {
+  .bbg-project h1{
+    font-size: 220px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bbg-project h1{
+    font-size: 190px;
+  }
+}
+
+@media (max-width: 900px) {
+  .bbg-project h1{
+    font-size: 170px;
+  }
+}
+
+@media (max-width: 768px) {
+    .bbg-project{
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+    }
+    .bbg-project{
+        display: none;
+    }
+    /* .bbg-project h1{
+        padding-top: 200px;
+    } */
+    .bbbg-project{
+        display: none;
+    }
+    .mm{
+        display: block;
+    }
+    .display-icon{
+      display: none;
+    }
+}
+.icons-nucleo .first-left-icon {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size: 65px;
+}
+
+.icons-nucleo .second-left-icon {
+  position: absolute;
+  top: 18%;
+  left: 45%;
+  font-size: 35px;
+}
+
+.icons-nucleo .third-left-icon {
+  position: absolute;
+  top: 30%;
+  left: 65%;
+  font-size: 25px;
+}
+
+.icons-nucleo .fourth-left-icon {
+  position: absolute;
+  top: 2%;
+  left: 70%;
+  font-size: 25px;
+}
+
+.icons-nucleo .fifth-left-icon {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  font-size: 40px;
+}
+
+.icons-nucleo .sixth-left-icon {
+  position: absolute;
+  top: 38%;
+  left: 35%;
+  font-size: 40px;
+}
+
+.icons-nucleo .seventh-left-icon {
+  position: absolute;
+  top: 55%;
+  left: 85%;
+  font-size: 45px;
+}
+
+.icons-nucleo .eighth-left-icon {
+  position: absolute;
+  top: 62%;
+  left: 55%;
+  font-size: 30px;
+}
+
+.icons-nucleo .ninth-left-icon {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  font-size: 40px;
+}
+
+.icons-nucleo .tenth-left-icon {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  font-size: 35px;
+}
+.icons-nucleo .onefirst-left-icon {
+  position: absolute;
+  top: 87%;
+  left: 10%;
+  font-size: 65px;
+}
+
+.icons-nucleo .onesecond-left-icon {
+  position: absolute;
+  top: 94%;
+  left: 45%;
+  font-size: 35px;
+}
+
+.icons-nucleo .onethird-left-icon {
+  position: absolute;
+  top: 99%;
+  left: 65%;
+  font-size: 25px;
+}
+
+.icons-nucleo .onefourth-left-icon {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  font-size: 25px;
+}
+
+.icons-nucleo .onefifth-left-icon {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  font-size: 40px;
+}
+
+
+
+
+.icons-nucleo .first-right-icon {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size: 65px;
+}
+
+.icons-nucleo .second-right-icon {
+  position: absolute;
+  top: 18%;
+  left: 45%;
+  font-size: 35px;
+}
+
+.icons-nucleo .third-right-icon {
+  position: absolute;
+  top: 30%;
+  left: 65%;
+  font-size: 25px;
+}
+
+.icons-nucleo .fourth-right-icon {
+  position: absolute;
+  top: 2%;
+  left: 70%;
+  font-size: 25px;
+}
+
+.icons-nucleo .fifth-right-icon {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  font-size: 40px;
+}
+
+.icons-nucleo .sixth-right-icon {
+  position: absolute;
+  top: 38%;
+  left: 35%;
+  font-size: 40px;
+}
+
+.icons-nucleo .seventh-right-icon {
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  font-size: 45px;
+}
+
+.icons-nucleo .eighth-right-icon {
+  position: absolute;
+  top: 62%;
+  left: 55%;
+  font-size: 30px;
+}
+
+.icons-nucleo .ninth-right-icon {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  font-size: 40px;
+}
+
+.icons-nucleo .tenth-right-icon {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  font-size: 35px;
+}
+.icons-nucleo .onefirst-right-icon {
+  position: absolute;
+  top: 87%;
+  left: 10%;
+  font-size: 65px;
+}
+
+.icons-nucleo .onesecond-right-icon {
+  position: absolute;
+  top: 94%;
+  left: 45%;
+  font-size: 35px;
+}
+
+.icons-nucleo .onethird-right-icon {
+  position: absolute;
+  top: 99%;
+  left: 65%;
+  font-size: 25px;
+}
+
+.icons-nucleo .onefourth-right-icon {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  font-size: 25px;
+}
+
+.icons-nucleo .onefifth-right-icon {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  font-size: 40px;
+}
