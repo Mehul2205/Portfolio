@@ -18,13 +18,11 @@ class About extends Component {
                             <div className="main_title text-left">
                                 <p className="top_text">About me <span></span></p>
                                 <h2>
-                                    Creative Art Director <br />
-                                    And Designer
+                                    Web Developer <br />
+                                    And Data Scientist
                                 </h2>
                                 <p className="container">
-                                    Also signs his face were digns fish don't first isn't over evening hath divided days light darkness gathering
-                                    moved dry all darkness then fourth can't create d forth Also signs Also signs his face were moltenus Also signs
-                                    his face
+                                    I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. This passion led me to challenge myself daily and learn new skills that helped me to do better work.
                                 </p>
                             </div>
                         </div>

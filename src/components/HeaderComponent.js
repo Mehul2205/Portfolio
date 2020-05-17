@@ -80,14 +80,14 @@ class Header extends Component {
                                     <h3>Hey There !</h3>
                                     <h1 className="text-uppercase">I am Mehul Patni</h1>
                                     <h5 className="text-uppercase">Specialist in --> <span> <Example /></span></h5>
-                                    <div className="social_icons my-5">
+                                    <div className="social_icons my-5 mx-2">
                                         <a href="http://www.linkedin.com/in/mehul-patni/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
                                         <a href="https://github.com/Mehul2205/" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
                                         <a href="https://www.codechef.com/users/mehul2205" target="_blank" rel="noopener noreferrer"><i className="fa fa-code"></i></a>
                                         <a href="https://www.hackerearth.com/@mehul301/" target="_blank" rel="noopener noreferrer"><i className="fa fa-header"></i></a>
                                         <a href="https://codepen.io/Mehul2205/" target="_blank" rel="noopener noreferrer"><i className="fa fa-codepen"></i></a>
                                     </div>
-                                    <div className="mx-5">
+                                    <div className="mx-3">
                                         <a className="roll-in-left primary_btn text-white" target="_blank" href="mailto:mehulpatni.2205@gmail.com" rel="noopener noreferrer">Hire Me</a>
                                         <a className="bounce-in-top primary_btn text-white" target="_blank" href={require('../assets/doc/resume.pdf')} rel="noopener noreferrer">CV</a>
                                     </div>

@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import {Row, Col} from 'reactstrap';
 
 import 'react-vertical-timeline-component/style.min.css';
 import { FilterFrames } from '@material-ui/icons';
-import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
-import StarIcon from '@material-ui/icons/Star';
 
 import './project_styles.css';
 
@@ -55,8 +52,8 @@ function ProjectView({ projects }) {
                 </h3>
                 <p>{ project.description }</p>
                 <p className="vertical-timeline-element-subtitle">
-                    <a className="pro" href={project.buttons.btn1} target="_blank"><button className="btn"><span>{btn1}</span></button></a>
-                    <a className="pro" href={project.buttons.btn2} target="_blank"><button className="btn"><span>{btn2}</span></button></a>
+                    <a className="pro" href={project.buttons.btn1} target="_blank" rel="noopener noreferrer"><button className="btn"><span>{btn1}</span></button></a>
+                    <a className="pro" href={project.buttons.btn2} target="_blank" rel="noopener noreferrer"><button className="btn"><span>{btn2}</span></button></a>
                 </p>
             </VerticalTimelineElement>
         );
@@ -118,9 +115,6 @@ function ProjectView({ projects }) {
 
 class Project extends Component {
 
-    constructor(props){
-        super(props);
-    }
     render() {
         console.log(this.props.projects);
         return(
@@ -132,8 +126,8 @@ class Project extends Component {
                     <div className="bbbg-project">
                         
                     </div>
-                    <div className="mm container">
-                        <h1>Projects</h1>
+                    <div className="mm container-fluid">
+                        <h4 className="top_text">Projects <span></span></h4>
                     </div>
                     <div className=" bg-primary">
                         <div className="container-fluid">

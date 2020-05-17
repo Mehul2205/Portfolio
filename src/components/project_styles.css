@@ -35,6 +35,30 @@
     
 }
 
+.mm .top_text {
+    color: rgba(5, 54, 77, 1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    position: relative;
+    margin: 10px;
+
+}
+.mm .top_text span {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -webkit-filter: blur(4px);
+    border-radius: 5px;
+}
 
 .vertical-timeline-element-subtitle .languages{
     background-color: darkgrey;

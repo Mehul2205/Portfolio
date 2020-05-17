@@ -50,7 +50,8 @@
 
 @media (max-width: 800px) {
     .about_area .about_img img{
-        margin-top: 0px;
+        margin-top: -40px;
+        margin-left: auto;
     }
     .pp{
         position: relative;

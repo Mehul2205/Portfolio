@@ -18,12 +18,10 @@ function Footer(props) {
                                 <a className="btn btn-social-icon p-2" href="mailto:"><i className="fa fa-envelope-o"></i></a>
                             </div> */}
                             <div class="footer_social">
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-facebook-f"></i></a>
-                                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-skype"></i></a>
-                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                                <a href="https://www.instagram.com/mehulpatni2205/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/mehul.patni.370" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-f"></i></a>
+                                <a href="https://www.youtube.com/channel/UC319JO0ERqQJVMorrijKxtw" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube-play"></i></a>
+                                <a href="https://github.com/Mehul2205/" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
                             </div>
                         </div>
                     </div>
