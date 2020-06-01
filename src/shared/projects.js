@@ -1,5 +1,22 @@
 export const PROJECTS = [
     {
+        id: 10,
+        className: 'vertical-timeline-element--work',
+        icon: 'WorkIcon',
+        date: 'Ongoing',
+        title: 'Object Detection Tensorflow.Js',
+        subtitle: '',
+        languages: [
+            'Tensorflow.Js', 'NodeJs' 
+        ],
+        description: 'This project aims to detect any human facial expression and outlines the face landmarks that finally returns a percentage of surety. Also, I\'m working on detecting other objects appear in the image.',
+        buttons:{
+                Demo: false,
+                btn1: 'https://github.com/Mehul2205/Object-Detection',
+                btn2: require('../assets/images/face-api.jpg')
+            }
+    },
+    {
         id: 9,
         className: 'vertical-timeline-element--work',
         icon: 'FilterFrame',
@@ -12,7 +29,7 @@ export const PROJECTS = [
         description: '',
         buttons:{
                 Demo: false,
-                btn1: '',
+                btn1: 'https://www.coursera.org/account/accomplishments/verify/Y722GPRDRSMQ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course',
                 btn2: 'https://github.com/Mehul2205/React-coursera/'
             }
     },
