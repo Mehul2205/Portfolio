@@ -18,11 +18,12 @@ class About extends Component {
                             <div className="main_title text-left">
                                 <p className="top_text">About me <span></span></p>
                                 <h2>
-                                    Web Developer <br />
+                                    Web Designer <br />
                                     And Data Scientist
                                 </h2>
                                 <p className="container">
-                                    I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. This passion led me to challenge myself daily and learn new skills that helped me to do better work.
+                                    I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. This passion led me to challenge myself daily and learn new skills that helped me to do better work.<br />
+                                    Some of my work is shown below !!
                                 </p>
                             </div>
                         </div>

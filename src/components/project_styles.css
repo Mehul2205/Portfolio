@@ -51,7 +51,7 @@
     margin-left: 5px;
     width: 80px;
     height: 4px;
-    background: rgba(237, 35, 159, 0.6);
+    background: rgba(237, 35, 160, 0.411);
     filter: blur(4px);
     -o-filter: blur(4px);
     -ms-filter: blur(4px);
@@ -60,12 +60,17 @@
     border-radius: 5px;
 }
 
+.descrp{
+  font-family: cursive;
+}
+/* d80700b2 */
 .vertical-timeline-element-subtitle .languages{
-    background-color: darkgrey;
+    background-color: #7a0051c7;
     border-radius: 10px;
     padding: 5px 10px;
     margin-right: 20px;;
     font-size: 14px;
+    color: white;
 
 }
 .vertical-timeline-element-title{

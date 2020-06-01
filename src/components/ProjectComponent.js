@@ -4,8 +4,10 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import { FilterFrames } from '@material-ui/icons';
 import WorkIcon from '@material-ui/icons/Work';
+import StarIcon from '@material-ui/icons/Star';
 
 import './project_styles.css';
+
 
 function ProjectView({ projects }) {
     const project = projects.map((project) => {
@@ -50,7 +52,7 @@ function ProjectView({ projects }) {
                 <h3 className="vertical-timeline-element-title">
                     {project.title}
                 </h3>
-                <p>{ project.description }</p>
+                <p className="descrp">{ project.description }</p>
                 <p className="vertical-timeline-element-subtitle">
                     <a className="pro" href={project.buttons.btn1} target="_blank" rel="noopener noreferrer"><button className="btn"><span>{btn1}</span></button></a>
                     <a className="pro" href={project.buttons.btn2} target="_blank" rel="noopener noreferrer"><button className="btn"><span>{btn2}</span></button></a>
@@ -85,9 +87,13 @@ function ProjectView({ projects }) {
             <div className=" col-md-8">
                 <VerticalTimeline>
                     {project}
+                    <VerticalTimelineElement
+                        iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                        icon={<StarIcon />}
+                    />
                 </VerticalTimeline>            
             </div>
-            
+            {/* <a href="https://github.com/Mehul2205" target="_blank" rel="noopener noreferrer"><StarIcon /></a> */}
             <div className="display-icon col-md-2">
               <div className="icons-nucleo text-white">
                 <i className="first-right-icon fa fa-plane"></i>

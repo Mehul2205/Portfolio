@@ -6,7 +6,7 @@ import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 import './header_styles.css'
 
-const values = ["ReactJs","Node.Js", "Tensorflow.Js", "Machine Learning", "AngularJs", "Python", "Data Science", "C++"];
+const values = ["React Js","Node Js", "Tensorflow.js", "Python", "Angular", "Machine Learning", "Data Science", "C++"];
 const alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
     'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 const Example = () => {
