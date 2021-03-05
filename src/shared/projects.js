@@ -3,17 +3,17 @@ export const PROJECTS = [
         id: 10,
         className: 'vertical-timeline-element--work',
         icon: 'WorkIcon',
-        date: 'Ongoing',
+        date: 'Aug 2020',
         title: 'Object Detection Tensorflow.Js',
         subtitle: '',
         languages: [
             'Tensorflow.Js', 'NodeJs' 
         ],
-        description: 'This project aims to detect any human facial expression and outlines the face landmarks that finally returns a percentage of surety. Also, I\'m working on detecting other objects appear in the image.',
+        description: 'This repo contains the code needed to build an object detection web app using TensorFlow.js and NodeJs. The app, uses the computer\'s webcam stream to perform real-time object detections in every frame it receives.',
         buttons:{
                 Demo: false,
                 btn1: 'https://github.com/Mehul2205/Object-Detection',
-                btn2: require('../assets/images/face-api.jpg')
+                btn2: require('../assets/images/tfjs-sample.png')
             }
     },
     {
