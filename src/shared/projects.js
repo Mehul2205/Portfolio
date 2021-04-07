@@ -9,7 +9,7 @@ export const PROJECTS = [
         languages: [
             'Tensorflow.Js', 'NodeJs' 
         ],
-        description: 'This repo contains the code needed to build an object detection web app using TensorFlow.js and NodeJs. The app, uses the computer\'s webcam stream to perform real-time object detections in every frame it receives.',
+        description: 'This project aims to detect ten categories of objects using a web application. This project uses a fashion minst dataset for the learning purpose, the user can upload or draw the picture of an item, and it will detect the object with 98.62% accuracy.',
         buttons:{
                 Demo: false,
                 btn1: 'https://github.com/Mehul2205/Object-Detection',
